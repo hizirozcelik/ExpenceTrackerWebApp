@@ -1,0 +1,18 @@
+﻿@model ExpenceTrackerWebApp.ModelView.Summary
+@{
+    ViewData["Title"] = "Summary";
+}
+
+<h1>Money on Hand</h1>
+<h1>@Model.AvailableMoney CAD</h1>
+<br />
+<br />
+<h1>Total Deposited Amount</h1>
+<h1>@Model.TotalIncome CAD</h1>
+
+
+
+
+<div>
+    <a asp-action="Index">Back Home</a>
+</div>
